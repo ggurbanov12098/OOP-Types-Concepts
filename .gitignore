@@ -1,0 +1,47 @@
+## A collection of useful .gitignore templates
+# https://github.com/github/gitignore
+
+# General ignores
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+
+# C++ specific
+*.obj
+*.o
+*.exe
+*.out
+*.gch
+*.pch
+*.a
+*.so
+*.dylib
+*.dll
+
+# C# specific
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.vs/
+
+# Ruby specific
+*.gem
+*.rbc
+*.log
+tmp/
+*.swp
+*.swo
+.DS_Store
+
+# System-specific ignores
+Thumbs.db
+ehthumbs.db
+.DS_Store
+*.json
